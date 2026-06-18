@@ -1,0 +1,21 @@
+[Unit]
+Description=Surveillance des connexions SSH echouees
+After=network.target syslog.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/logwatcher.sh
+Restart=on-failure
+RestartSec=10s
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=logwatcher
+
+# Durcissement (bonus)
+NoNewPrivileges=yes
+ProtectSystem=strict
+ReadWritePaths=/var/log/logwatcher
+PrivateTmp=yes
+
+[Install]
+WantedBy=multi-user.target
