@@ -1,0 +1,11 @@
+
+[Unit]
+Description=Declenche logwatcher toutes les 5 minutes
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=5min
+Unit=logwatcher_oneshot.service
+
+[Install]
+WantedBy=timers.target

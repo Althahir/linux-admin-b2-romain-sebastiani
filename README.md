@@ -28,4 +28,5 @@
   | M3 — Permissions      | `setup_project.sh`                     | Termine  |     16 / 20    |
   | M4 — Service systemd  | `logwatcher.sh` + `logwatcher.service` | Termine  |     18 / 20    |
   | M5 — Sécurisation SSH | `harden_ssh.sh` + UFW                  | Termine  |     18 / 20    |
+  | Bonus		  | `timer systemd (logwatcher)`           | Termine  |     20 / 20    |
   ----------------------------------------------------------------------------------------------
