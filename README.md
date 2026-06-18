@@ -23,9 +23,9 @@
    _____________________________________________________________________________________________
   | Mission               | Description                            | Statut   | Points estimés |          
   |-----------------------|----------------------------------------|----------|----------------|
-  | M1 — Dépôt GitHub     | Structure, README, commits             | Termine  |     10 / 10    |
+  | M1 — Dépôt GitHub     | Structure, README, commits             | Termine  |     20 / 20    |
   | M2 — Users & groupes  | `create_users.sh`                      | Termine  |     16 / 20    |
   | M3 — Permissions      | `setup_project.sh`                     | Termine  |     16 / 20    |
   | M4 — Service systemd  | `logwatcher.sh` + `logwatcher.service` | Termine  |     18 / 20    |
-  | M5 — Sécurisation SSH | `harden_ssh.sh` + UFW                  | En cours |      ? / 20    |
+  | M5 — Sécurisation SSH | `harden_ssh.sh` + UFW                  | Termine  |     18 / 20    |
   ----------------------------------------------------------------------------------------------
